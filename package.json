@@ -1,0 +1,19 @@
+{
+  "name": "user-management-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A user management system build using Express.js and MongoDB allowing users to create create and manage accounts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik Dwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "validator": "^13.9.0"
+  }
+}
